@@ -28,21 +28,19 @@ Proyek ini dibangun secara independen menggunakan metode **Vibe Coding** (proses
 
 ### 1. Instalasi Dependensi 
 Pastikan Python telah terpasang, kemudian instal pustaka pendukung via terminal:
-
-bash
+```
 pip install netmiko pandas openpyxl
-
+```
 ### 2. Penerapan Konfigurasi (Deploy)
 Jalankan perintah berikut untuk memulai injeksi konfigurasi otomatis:
-
-Bash
+```
 python main.py
-
+```
 ### 3. Pembatalan Konfigurasi (Rollback)
 Jalankan perintah berikut jika ingin membersihkan kembali seluruh pengaturan pada perangkat:
-
-Bash
+```
 python rollback.py
+```
 Pastikan Python telah terpasang, kemudian instal pustaka pendukung via terminal:
 ```bash
 pip install netmiko pandas openpyxl
